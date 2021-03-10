@@ -416,7 +416,7 @@ button:hover {
     background-color: rgba(250, 250, 250, 1);
 }
 
-.service-item:hover h4 {
+.service-item:hover h4, .service-item:hover h5 {
     color: #1e1e1e;
 }
 
@@ -466,6 +466,53 @@ button:hover {
     background-image: url(../images/fourth-main-icon.png);
 }
 
+.service-item .db-service-icon {
+    background-image: url(../icons/db-white-icon.png);
+}
+
+.service-item:hover .db-service-icon {
+    background-image: url(../icons/db-main-icon.png);
+}
+
+.service-item .linux-service-icon {
+    background-image: url(../icons/linux-white-icon.png);
+}
+
+.service-item:hover .linux-service-icon {
+    background-image: url(../icons/linux-main-icon.png);
+}
+
+.service-item .host-service-icon {
+    background-image: url(../icons/host-white-icon.png);
+}
+
+.service-item:hover .host-service-icon {
+    background-image: url(../icons/host-main-icon.png);
+}
+
+.service-item .android-service-icon {
+    background-image: url(../icons/android-white-icon.png);
+}
+
+.service-item:hover .android-service-icon {
+    background-image: url(../icons/android-main-icon.png);
+}
+
+.service-item .react-service-icon {
+    background-image: url(../icons/react-white-icon.png);
+}
+
+.service-item:hover .react-service-icon {
+    background-image: url(../icons/react-main-icon.png);
+}
+
+.service-item .apple-service-icon {
+    background-image: url(../icons/apple-white-icon.png);
+}
+
+.service-item:hover .apple-service-icon {
+    background-image: url(../icons/apple-main-icon.png);
+}
 
 /* My Work */
 
